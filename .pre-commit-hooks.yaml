@@ -1,0 +1,12 @@
+- id: mix-credo
+  name: mix credo
+  description: Formats Elixir files with mix format.
+  language: system
+  entry: mix credo
+  files: \.exs?$
+- id: mix-coveralls
+  name: mix coveralls
+  description: Formats Elixir files with mix format.
+  language: system
+  entry: mix coveralls --umbrella
+  files: \.exs?$
